@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containerGroup">
+        <div class="leftContainer">
+            <img src="images/folha.jpg" alt="folha">
+            <div class="logo">
+                <img src="images/odin-lined.png" width="50px" alt="">
+                <h1>Odin</h1>
+            </div>
+        </div>
+        <div class="rightContainer">
+            <div class="header">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias ipsa, libero officiis dicta, rem commodi dignissimos architecto dolore, necessitatibus ad id unde aliquam debitis fuga et aut corrupti. Asperiores.</h1>
+            </div>
+            <form action="https://httpbin.org/post" method="post">
+                <div class="form">
+                    <div class="formNames">
+                        <div class="formGroup">
+                            <label for="firstName">First Name:</label>
+                            <input type="text" name="firstName" placeholder="John">
+                        </div>
+
+                        <div class="formGroup">
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" name="lastName" placeholder="Doe">
+                        </div>
+                    </div>
+                    <div class="formEmailPhone">
+                        <div class="formGroup">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" placeholder="exemplo@exemplo.com">
+                        </div>
+                        <div class="formGroup">
+                            <label for="phoneNumber">Phone Number:</label>
+                            <input type="tel" name="phoneNumber" placeholder="(xx)xxxx-xxxx" id="phone">
+                        </div>
+                    </div>
+                    <div class="formPassword">
+                        <div class="formGroup">
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" required>
+                        </div>
+                        <div class="formGroup">
+                            <label for="confPassWord">Confirm Password:</label>
+                            <input type="password" name="confPassWord">
+                        </div>
+                    </div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
